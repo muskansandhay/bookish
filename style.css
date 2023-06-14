@@ -1,0 +1,381 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+nav div.icon{
+  margin-right:50%;
+  
+}
+nav div.home i{
+  margin-top: 25px;
+  padding:15px;
+  font-size:45px;
+
+}
+nav div.favourite i {
+  color:black;
+  margin-top:35px;
+  margin-right: 20px;
+  font-size: 45px;
+
+}
+
+nav div.cart i{
+  margin-top: 35px;
+  margin-right:20px;
+  font-size:45px;
+  color:black;
+}
+
+nav div.search_bar{
+  margin-top: 20px;
+  padding:15px;
+}
+nav div.search_bar{
+  margin-top: 20px;
+  padding:15px;
+}
+
+nav div.search_bar input{
+  padding:15px;
+  border-radius:15px;
+  font-weight: bold;
+}
+
+nav div.search_bar input:hover{
+  border-bottom:2px solid;
+  border-color: white;
+  background-color:black;
+  color:white;
+  transition:1s;
+
+}
+
+nav div.search_bar button{
+  padding:15px;
+  border-radius:15px;
+}
+
+nav div.signup button {
+  margin-top: 30px;
+}
+header nav{
+  display:flex;
+  
+}
+* {box-sizing:border-box}
+.category{
+  background:lightpink;
+  padding:10px;
+  margin:40px;
+}
+.category span{
+  background:white;
+  color:pink;
+  border-bottom:3px solid;
+  border-color: black;
+  padding:5px;
+  margin-left:10%;
+  border-radius: 6px;
+
+}
+.category a{
+  text-decoration:none;
+  color: pink;
+  font-size:25px;
+}
+.category span:hover{
+  background-color: black;
+  font-weight:bold ;
+  padding:9px;
+  font-size:larger;
+  transition: 1s;
+  
+  
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-top:15vh;
+  margin-bottom: 15vh;
+  margin-left:35vh;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.slideshow-container img{
+  size: 50ch
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* Pagination links */
+.pagination {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  margin-left:15vh;
+  margin-bottom:15vh;
+  }
+.pagination img{
+  width:35vh;
+  margin-left:10vh;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+
+}
+/* Style the active/current link */
+.pagination img:hover {
+  opacity: 0.5;
+  background-color: dodgerblue;
+  color: white;
+}
+.h1{
+  grid-column: 1 / span 4;
+}
+
+
+/* Popular books css*/
+.categories {
+  background: white;
+  border: 2px solid black;
+  display:grid;
+  column-gap: 0px;
+  padding:5px;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  
+}
+.categories h1{
+  text-align:center;
+  color: black;
+  font-size:20px;
+  margin-bottom:5vh;
+
+}
+.categories a{
+  text-decoration: none;
+  color:white;
+  display: inline; 
+  width: 100px;
+  height: 100px;
+  margin:5vh;
+  padding: 5px;
+  border: 2px solid black;
+  background-color:lightpink;
+  border-radius: 6px;
+}
+.categories a:hover{
+  background-color:black;
+  color:white;
+  padding:9px;
+  font-size:larger;
+  transition: 1s;
+  
+}
+/* feedback css*/
+.freebooks{
+  background:pink;
+  padding:25px;
+  margin-top:5px;
+}
+.heading{
+  text-align:left;
+  font-size: 25px;
+  color:white;
+}
+.para{
+  text-align:center;
+  font-size: 15px;
+  color:white;
+}
+.feedbackbutton{
+  background:white;
+  border: 2px solid black;
+  text-align:center;
+  font-size:15px;
+  padding:5px;
+  border-radius: 6px;
+}
+.feedbackbutton a{
+  text-decoration:none;
+  color:lightpink;
+   text-align:center;
+}
+.feedbackbutton:hover{
+  background:black;
+  color:white;
+  padding:1px;
+  font-size:larger;
+  transition: 1s;
+  
+}
+/*
+popUp sign-Up form
+*/
+.btn-login{
+           margin-top:10px;
+            padding:10px 15px;
+            background-color: black;
+            color:white;
+            cursor:pointer;
+            border-radius:10px;
+        }
+.overlay{
+            width:100%;
+            position:fixed;
+            top:0;
+            height:100vh;
+            background:rgba(0,0,0,0.5);
+            z-index:-1;
+            opacity:0;
+            transition:1s;
+        }
+ .loginform{
+            width:350px;
+            padding:30px 20px;
+            background-color: white;
+            position:absolute;
+            left:50%;
+            top:-50%;
+            transform:translate(-50%,-50%);
+            box-shadow:0px 0px 10px 3px #ccc;
+            z-index:9;
+            transition:2s;
+        }
+.loginform input{
+            width:100%;
+            height:30px;
+            margin-bottom:15px;
+        }
+.loginform button{
+            background-color:black;
+            color:white;
+            padding:10px 15px;
+            cursor:pointer;
+        }
+.loginform span{
+            position:absolute;
+            right:0px;
+            top:0px;
+            width:30px;
+            height:30px;
+            background-color: green;
+            text-align:center;
+            color:white;
+            line-height:30px;
+            cursor:pointer;
+
+        }
+.showoverlay{
+            opacity:1;
+            z-index:1;
+        }
+.showloginform{
+            top:50%;
+        }
+
+/*
+footer css
+*/
+.subscribe h1{
+  font-size: 30px;
+ text-shadow:4px 2px 4px darkgrey;
+ text-align:center;
+}
+.subscribe p{
+  font-size:20px;
+  text-align:center;
+}
+.subForm{
+  font-size:20px;
+  text-align:center;
+}
+.subForm button{
+  background:lightpink;
+  color:white;
+  padding:5px;
+  border-radius: 6px;
+}
+.subForm button:hover{
+  background:black;
+  color:pink;
+  padding:7px;
+  font-size:larger;
+  transition:1s;
+}
+h1{
+  text-shadow:4px 2px 4px darkgrey;
+  text-align: center;
+}

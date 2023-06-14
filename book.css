@@ -1,0 +1,22 @@
+.img{
+    grid-area: img;
+}
+.name{
+    grid-area: name;
+}
+.type{
+    grid-area: type;
+}
+.description{
+    grid-area: description;
+}
+.book-container{
+    width: 80%;
+    margin:10vh;
+    display:grid;
+    grid-template:'img img img type type type'
+    'name name name name name name '
+    'description description description description description description';
+    
+
+}
